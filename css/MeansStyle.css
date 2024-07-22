@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Indie;
+    src: url(../fuentes/IndieFlower-Regular.ttf)format('truetype');
+}
+@font-face {
+    font-family: Shadows;
+    src: url(../fuentes/ShadowsIntoLight-Regular.ttf)format('truetype');
+}
+body{
+    background-color: #000000;
+    box-sizing: border-box;
+}
+#cabecera{
+    border: 20px groove rgb(155, 99, 78);
+    background-color: orange;
+    padding: 40px 70px;
+    margin: 20px;
+    border-radius: 10px;
+    font-family: Indie;
+    text-align: center;
+}
+#cabecera h1{
+    font-size: 90px;
+    color: #000000;
+}
+#cabecera h2{
+    color: rgb(73, 75, 70);
+}
+.ranuras ul{
+    list-style-type: none;
+    border: 1px solid black;
+    text-align: center;
+}
+.ranuras ul li{
+    font-family: Shadows;
+    margin: 10px;
+    display:inline; 
+    background-color: rgb(224, 166, 41);
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 20px 50px;
+}
+.posicion{
+    position: absolute;
+    top: 800px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slider{
+    background-image: url(../imagenes/portada1.png);
+    background-size: cover;
+    height: 300px;
+    width: 1200px;
+    border-radius: 10px;
+    animation: animacion 10s infinite;
+}
+@keyframes animacion {
+    20% {
+        background-image: url(../imagenes/portada1.png);
+        background-size: cover;
+    }
+    40% {
+        background-image: url(../imagenes/portada2.png);
+        background-size: cover;
+    }
+    60% {
+        background-image: url(../imagenes/portada3.png);
+        background-size: cover;
+    }
+    80% {
+        background-image: url(../imagenes/portada4.png);
+        background-size: cover;
+    }
+    100% {
+        background-image: url(../imagenes/portada5.png);
+        background-size: cover;
+    }
+}
+.presentacion{
+    top: 1800px;
+    padding: 50px 70px;
+    border: 10px dashed salmon;
+    background-color: sandybrown;
+    border-radius: 10px;
+}

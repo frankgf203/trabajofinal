@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+#cabecera{
+    border: 5px dashed orangered;
+    background-color: orange;
+    border-radius: 8px;
+}
+#cabecera h1{
+    text-align: center;
+    font-size: 2.5em;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    background-color: sandybrown;
+    color: rgb(63, 58, 58);
+    font-weight: bold;
+    border-radius: 4px;
+    padding: 10px 50px;
+}
+nav a:hover{
+    color: white;
+}
+.reseña{
+    background-color: sandybrown;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#pie-de-pagina{
+    background-color: rgb(53, 48, 48);
+    color: rgb(214, 156, 84);
+    border-radius: 8px;
+    padding: 40px;
+}
+#pie-de-pagina h2{
+    text-align: center;
+    font-size: 5em;
+}
+#pie-de-pagina p{
+    font-size: 20px;
+}
